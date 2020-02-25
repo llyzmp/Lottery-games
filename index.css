@@ -1,0 +1,33 @@
+.lottery {
+    position: relative;
+    width: 415px;
+    height: 415px;
+    user-select: none;
+}
+
+.lottery-item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+
+}
+.lottery-btn {
+    position: absolute;
+    top: 50%;;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 20%;
+    text-align: center;
+    border-radius: 4px;
+    background-color: red;
+    color: yellow;
+}
+.lottery-item.on{
+    background-color: yellow;
+    color: red;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="app"></div>
+    <script src="./index.js"></script>
+    <script>
+        lottery.init({
+            // 获取到div盒子
+            el:document.getElementById('app'),
+            //抽奖的行和列
+            row:5,
+            col:5,
+            lottery: ['战“疫”胜利', '战士平安归来', '身体健康', '暴富', '暴瘦', '世界和平', '无债', '国泰民安', '拿到offer', '平平安安', '心想事成', '阖家幸福', '不丧', '一切顺利', '平安喜乐', '开心快乐']
+        })
+    </script>
+</body>
+</html>
